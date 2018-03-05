@@ -11,7 +11,7 @@ var users = require('./routes/users');
 var app = express();
 //Set up mongoose connection
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb://user1:user1234@ds012198.mlab.com:12198/t-local-library';
+var mongoDB = 'mongodb://nodeuser:Mpfr28@ds012198.mlab.com:12198/t-local-library';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
